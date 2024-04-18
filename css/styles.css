@@ -1,0 +1,91 @@
+body {
+    background-color: #d3d3d3;
+    font-family: Helvetica;
+}
+
+.container {
+    background-color: #fff;
+    max-width: 1300px;
+    position: relative;
+    margin: 50px auto;
+    padding: 20px 50px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/* header */
+.header {
+    text-align: center;
+}
+.main-title {
+    font-size: 45px;
+}
+
+.main-paragraph {
+    font-style: italic;
+}
+
+/* imagem apresentação */
+.featured-image {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* biografia */
+.biography-container {
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+}
+
+/* Quotes */
+.quotes-container {
+    background-color: #ddd;
+    padding: 25px;
+}
+
+.quotes-container blockquote {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.quotes-container p {
+    font-style: italic;
+    color: #f00;
+}
+
+/* Curiosidades */
+.curiosities-container {
+    margin: 25px 0;
+    padding: 25px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+}
+
+.curiosities-container li {
+    height: 48px;
+}
+
+.img-bold {
+    margin: 25px 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+.moreinfo-container a {
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: #000;
+}
+
+.moreinfo-container a:hover {
+    color: #f00;
+}
